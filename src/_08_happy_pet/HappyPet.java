@@ -1,8 +1,6 @@
 package _08_happy_pet;
 import javax.swing.JOptionPane;
-
 public class HappyPet {
-	
 	// 2. Add the following variable to the next line: static int happinessLevel = 0;
 	// this will be used to store the happiness of your pet
 	
@@ -23,7 +21,6 @@ public class HappyPet {
 			//    user that he loves his pet and use break; to exit for loop.
 
 	}
-
 	// 4. Create methods to handle each of your user selections.
 	//    Each method should create a pop-up with the pet's response (eg. cat might purr when pet), 
 	//    and INCREMENT the pet's happiness Level.

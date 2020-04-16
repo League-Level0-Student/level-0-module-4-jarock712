@@ -7,8 +7,9 @@ PImage face = loadImage("download.jpg");
 
 void draw() {
 ellipse(300, 190, 40, 70);
+pupil();
 }
+
 void pupil(){
-  fill(0,0,0);
-  ellipse(300, 190, 20, 40);
+  ellipse(300, 190, 20, 20);
 }

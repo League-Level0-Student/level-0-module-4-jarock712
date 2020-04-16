@@ -1,13 +1,9 @@
 package _07_pi_aloud;
 //    Copyright (c) The League of Amazing Programmers 2013-2017
 //    Level 0
-
-
 import java.io.IOException;
 import java.util.Scanner;
-
 public class PiAloud {
-
 	// 1. Make a main method and make sure your program can run
 
 	// 2. Make a String variable to hold the value of Pi. You could use http://www.piday.org/million/ for the value.
@@ -30,7 +26,6 @@ public class PiAloud {
 			e.printStackTrace();
 		}
 	}
-
 	private static void pause(int seconds) {
 		try {
 			Thread.sleep(1000 * seconds);
@@ -38,13 +33,9 @@ public class PiAloud {
 			e.printStackTrace();
 		}
 	}
-
-
 	static char getInputFromUser() {
 		Scanner scanner = new Scanner(System.in);
 		return scanner.next().toCharArray()[0];
 	}
 
 }
-
-
